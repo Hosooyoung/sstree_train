@@ -21,49 +21,7 @@ app.use(cors({origin:'http://smartiot.iptime.org'}));
 
 var port = 3000;
 
-var day = 6;
-var day2=6;
-var day3=6;
-var day4=6;
-var file_1='weather/2019-10-30.csv';
-var file_2='weather2/2019-10-30.csv';
-var file_3='weather3/2019-10-30.csv'; 
-var file_4='weather4/2019-10-30.csv'; 
 
-var pool = mysql.createPool({
-	host     : 'localhost',
-	user     : 'root',
-	password : 'logiclab',
-	database : 'weather'
-});var day = 6;
-var day2=6;
-var day3=6;
-var day4=6;
-var file_1='weather/2019-10-30.csv';
-var file_2='weather2/2019-10-30.csv';
-var file_3='weather3/2019-10-30.csv'; 
-var file_4='weather4/2019-10-30.csv'; 
-
-var pool = mysql.createPool({
-	host     : 'localhost',
-	user     : 'root',
-	password : 'logiclab',
-	database : 'weather'
-});var day = 6;
-var day2=6;
-var day3=6;
-var day4=6;
-var file_1='weather/2019-10-30.csv';
-var file_2='weather2/2019-10-30.csv';
-var file_3='weather3/2019-10-30.csv'; 
-var file_4='weather4/2019-10-30.csv'; 
-
-var pool = mysql.createPool({
-	host     : 'localhost',
-	user     : 'root',
-	password : 'logiclab',
-	database : 'weather'
-});
 
 
 var day = 6;
